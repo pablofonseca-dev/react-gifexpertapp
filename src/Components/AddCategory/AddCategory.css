@@ -1,0 +1,22 @@
+.category-box{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .625rem;
+}
+
+.input{
+    display: inline-block; 
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: .625rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #888;
+    border: 1px solid #CCCCCC; 
+}
+
+.input:focus{
+    outline-color: rgb(97, 230, 201);
+    outline-width: .03125rem;
+}

@@ -1,0 +1,29 @@
+.categories-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-auto-rows: minmax(auto-fit, 400px);
+    justify-items: center; 
+    gap: 15px;
+    overflow: hidden;
+    grid-auto-flow: dense;
+}
+
+@media all and (max-width: 996px)
+{
+    .categories-grid{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+}
+@media all and (max-width: 588px)
+{
+    .categories-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,46 @@
+.grid-item{
+    width: 90%;
+    min-width: 28%;
+    background-color: #22232ede; 
+    height: min-content;
+    border-radius: 5px;
+}
+
+.grid-item__image{
+    max-width: 100%;
+}
+
+.grid-item__title{
+    color: #FFFFFF;
+    font-family: Consolas, 'Roboto', 'Segoe UI', sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 1.5rem 0.1rem 1.5rem 0.1rem;
+    text-align: center;
+}
+
+@media all and (max-width: 588px)
+{
+    .grid-item__image{
+        width: 100%;
+    }
+
+    .grid-item__title{
+        color: #FFFFFF;
+        font-family: Consolas, 'Roboto', 'Segoe UI', sans-serif;
+        font-weight: 400;
+        font-size: 0.9rem;
+        margin: 0;
+        padding: 1.5rem 0.1rem 1.5rem 0.1rem;
+    }
+}
+
+@media all and (max-width: 996px){
+    .grid-item{
+        width: 100%;
+        background-color: #22232ede; 
+        height: min-content;
+        border-radius: 5px;
+    }
+}
